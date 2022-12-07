@@ -1,0 +1,128 @@
+body {
+    background-color: #26262a;
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #58595a;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #85878c;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    background-color: #2d2d30;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.tz-gallery .thumbnail:hover {
+    /*transform: translateY(-10px) scale(1.02);*/
+}
+
+.tz-gallery .caption{
+    background-color: #2d2d30;
+    /*padding: 15px 15px;*/
+}
+
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+    color: #626268;
+}
+
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+.line{
+    margin: 0px 5px;
+}
+#save{
+    background: url(images/save.svg);
+    display: block;
+    background-size: cover
+}
+#imgsave{
+    background: url(cha/1.jpg);
+    display: block;
+    background-size: cover
+}
+#save:hover{
+    background: url(images/save2.svg);
+}
+.contelem {
+    margin: -23px;
+  }
+
+  .co {
+    padding: 20px;
+  }
+
+#square {
+    height: 37px;
+}
+#squareHead {
+    background-color: #4b4b50;
+    height: 4px;
+}
+#info{
+    background: url(images/info.svg);
+    display: block;
+    background-size: cover
+}
+#info:hover{
+    background: url(images/info2.svg);
+}
+
+.weightring{
+    font-size: 20px;
+    position: absolute;
+    bottom: 90px;
+    font-weight: bold;
+    background-color: #26262a;
+    padding: 4px;
+    color: #58595a;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 70%;
+}
+.weightsc{
+    font-size: 20px;
+    position: absolute;
+    bottom: 90px;
+    font-weight: bold;
+    background-color: #26262a;
+    padding: 4px;
+    color: #58595a;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 70%;
+}
+#tagjew{
+    font-size: 2px;
+    font-weight: bold;
+    margin-top: 0;
+    color: #626268;
+}
+
+#hom{
+    background: url(images/logo0.png);
+}
